@@ -34,7 +34,6 @@ return {
                             }
                         }
                     }
-                    --require("rust-tools").setup {}
                 end
             }
 
