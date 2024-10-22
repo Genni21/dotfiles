@@ -1,0 +1,27 @@
+import = [
+   "~/.config/alacritty/themes/themes/catppuccin_macchiato.toml"
+]
+
+[window]
+opacity = 0.98
+
+[[keyboard.bindings]]
+key = "Return"
+mods = "Control|Shift"
+action = "SpawnNewInstance"
+
+[font]
+size = 12
+
+  [font.normal]
+  family = "FiraCode Nerd Font"
+    style = "Regular"
+
+
+[cursor]
+unfocused_hollow = true
+thickness = 0.10
+
+  [cursor.style]
+  shape = "Block"
+  blinking = "Never"

@@ -1,0 +1,1 @@
+1) leader gc in visual mode to toggle linewise comment
