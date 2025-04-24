@@ -1,13 +1,3 @@
---[[return {
-  'ellisonleao/gruvbox.nvim',
-  lazy = false,
-  config = function()
-    require('gruvbox').setup { disable_italics = true }
-    vim.cmd 'colorscheme gruvbox'
-  end,
-}
-]]
---
 -- return {
 --   'folke/tokyonight.nvim',
 --   priority = 1000, -- Make sure to load this before all the other start plugins.
@@ -21,7 +11,6 @@
 --     vim.cmd.hi 'Comment gui=none'
 --   end,
 -- }
---
 
 return {
   'catppuccin/nvim',
